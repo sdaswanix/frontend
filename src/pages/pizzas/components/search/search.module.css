@@ -1,0 +1,32 @@
+.form {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  justify-content: space-between;
+}
+.search {
+  width: 45.5rem;
+  height: 2.58rem;
+  padding-left: 0.9rem;
+  border-radius: 0.27rem;
+  border: 0.1rem solid var(--color-primary);
+  font-family: Quicksand;
+  font-size: 1.28rem;
+  color: var(--grey);
+}
+.filterAndArrange {
+  height: 2.58rem;
+  width: 9rem;
+  padding-left: 0.9rem;
+  border-radius: 0.27rem;
+  border: 0.1rem solid var(--color-primary);
+  font-family: Quicksand;
+  font-size: 1.28rem;
+  color: var(--grey);
+}
+
+@media (max-width: 960px) {
+  .form {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+.main {
+  padding: var(--space-m) var(--space-xl);
+}
+
+.page {
+  background-color: var(--grey-background);
+}
+
+h2 {
+  font-family: Quicksand;
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.ul {
+  gap: var(--space-s);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 960px) {
+  .ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+.h3 {
+  width: 32.12rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--green-500);
+  font-family: Quicksand;
+  font-size: 1.43rem;
+  color: var(--grey);
+}

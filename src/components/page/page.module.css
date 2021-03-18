@@ -1,0 +1,22 @@
+.page {
+  display: grid;
+  grid-template-columns: 13.75rem 1fr;
+}
+
+.menu {
+  background-color: var(--color-primary);
+  color: var(--color-primary-text);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--space-l);
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.link {
+  color: var(--color-primary-text);
+  text-decoration: none;
+}
