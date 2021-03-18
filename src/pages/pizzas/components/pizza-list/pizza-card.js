@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image } from "../../../../components";
+import { Button, Image, Redirect } from "../../../../components";
 import css from "./pizza-card.module.css";
 
 export function PizzaCard({ pizza }) {
@@ -16,7 +16,7 @@ export function PizzaCard({ pizza }) {
       <h4 className={css.h4}>{pizza.price}€</h4>
       <h3 className={css.buttonContainer}>
         <Button className={css.buttonCarrito} label="AÑADIR AL CARRITO" />
-        <Button className={css.buttonVer} label="VER MAS" />
+        <Redirect href={`/pizzas/${pizza.id}`} label="VER MAS"/>
       </h3>
     </article>
   );

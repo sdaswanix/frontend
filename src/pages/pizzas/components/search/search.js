@@ -8,7 +8,6 @@ export function Search() {
         placeholder="Busca tu pizza favorita"
         className={css.search}
       ></Input>
-      <Input placeholder="Filtrar" className={css.filterAndArrange}></Input>
       <Input placeholder="Ordenar" className={css.filterAndArrange}></Input>
     </Form>
   );
